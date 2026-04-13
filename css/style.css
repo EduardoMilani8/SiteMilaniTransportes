@@ -723,6 +723,25 @@ section { padding: 96px 0; }
   .sobre-imagem-placeholder { height: 300px; }
 }
 
+/* ── GALERIA PLACEHOLDER ─────────────────── */
+.frota-galeria {
+  margin-top: 48px;
+}
+
+.galeria-placeholder {
+  border: 2px dashed rgba(255,255,255,0.1);
+  border-radius: var(--radius);
+  padding: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  color: #555;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
 @media (max-width: 480px) {
   .hero-titulo { font-size: 3rem; }
   .hero-acoes { flex-direction: column; }
