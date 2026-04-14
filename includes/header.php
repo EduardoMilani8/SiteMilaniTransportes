@@ -9,20 +9,20 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/milani-transportes/css/style.css"></head>
+  <link rel="stylesheet" href="/css/style.css">
 <body>
 
 <header class="site-header" id="topo">
   <div class="container header-inner">
-    <a href="/milani-transportes/" class="logo">
-      <img src="/milani-transportes/images/logo.png" alt="Milani Transportes" class="logo-img">
-    </a>
+  <a href="/" class="logo">
+    <img src="/images/logo.png" alt="Milani Transportes" class="logo-img">
+  </a>
 
     <nav class="nav-principal" id="nav-principal">
-      <a href="/milani-transportes/#sobre" class="nav-link">Sobre</a>
-      <a href="/milani-transportes/#servicos" class="nav-link">Serviços</a>
-      <a href="/milani-transportes/#frota" class="nav-link">Nossa Frota</a>
-      <a href="/milani-transportes/#contato" class="nav-link nav-cta">Solicitar Frete</a>
+      <a href="/#sobre" class="nav-link">Sobre</a>
+      <a href="/#servicos" class="nav-link">Serviços</a>
+      <a href="/#frota" class="nav-link">Nossa Frota</a>
+      <a href="/#contato" class="nav-link nav-cta">Solicitar Frete</a>
     </nav>
 
     <button class="nav-toggle" id="nav-toggle" aria-label="Menu">

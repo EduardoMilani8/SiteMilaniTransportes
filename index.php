@@ -38,15 +38,15 @@ require_once __DIR__ . '/includes/header.php';
       <?= EMPRESA_CIDADE ?> — Atuamos em todo o Brasil e Uruguai
     </div>
 
-    <img src="/milani-transportes/images/logo.png" alt="Milani Transportes" class="hero-logo">
+    <img src="/images/logo.png" alt="Milani Transportes" class="hero-logo">
 
     <p class="hero-desc">
       Especializados no transporte de grãos agrícolas como soja e arroz. Frota própria de carretas, motoristas experientes e mais de 16 anos levando cargas com segurança pelo Brasil e Uruguai.
     </p>
 
     <div class="hero-acoes">
-      <a href="/milani-transportes/#contato" class="btn btn-primary">Solicitar Frete</a>
-      <a href="/milani-transportes/#servicos" class="btn btn-outline">Nossos Serviços</a>
+      <a href="/#contato" class="btn btn-primary">Solicitar Frete</a>
+      <a href="/#servicos" class="btn btn-outline">Nossos Serviços</a>
     </div>
 
     <div class="hero-numeros">
