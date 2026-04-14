@@ -8,10 +8,10 @@
     </div>
     <div class="footer-col">
       <h4>Navegação</h4>
-      <a href="/milani-transportes/#sobre">Sobre nós</a>
-      <a href="/milani-transportes/#servicos">Serviços</a>
-      <a href="/milani-transportes/#frota">Nossa Frota</a>
-      <a href="/milani-transportes/#contato">Contato</a>
+        <a href="/#sobre">Sobre nós</a>
+        <a href="/#servicos">Serviços</a>
+        <a href="/#frota">Nossa Frota</a>
+        <a href="/#contato">Contato</a>
     </div>
     <div class="footer-col">
       <h4>Contato</h4>
