@@ -14,15 +14,15 @@
 
 <header class="site-header" id="topo">
   <div class="container header-inner">
-    <a href="/" class="logo">
+    <a href="/milani-transportes/" class="logo">
       <img src="/milani-transportes/images/logo.png" alt="Milani Transportes" class="logo-img">
     </a>
 
     <nav class="nav-principal" id="nav-principal">
-      <a href="/#sobre" class="nav-link">Sobre</a>
-      <a href="/#servicos" class="nav-link">Serviços</a>
-      <a href="/#frota" class="nav-link">Nossa Frota</a>
-      <a href="/#contato" class="nav-link nav-cta">Solicitar Frete</a>
+      <a href="/milani-transportes/#sobre" class="nav-link">Sobre</a>
+      <a href="/milani-transportes/#servicos" class="nav-link">Serviços</a>
+      <a href="/milani-transportes/#frota" class="nav-link">Nossa Frota</a>
+      <a href="/milani-transportes/#contato" class="nav-link nav-cta">Solicitar Frete</a>
     </nav>
 
     <button class="nav-toggle" id="nav-toggle" aria-label="Menu">

@@ -2,20 +2,23 @@
 define('EMPRESA_NOME', 'Milani Transportes');
 define('EMPRESA_SLOGAN', 'Sua carga, nossa responsabilidade.');
 define('EMPRESA_CIDADE', 'Coxilha, Rio Grande do Sul');
-define('EMPRESA_REGIAO', 'Norte do RS e região');
+define('EMPRESA_REGIAO', 'RS, SC, PR, MG, SP e Uruguai');
 
-// TODO: Substituir pelos contatos reais
-define('EMPRESA_TELEFONE', '(54) 9 9000-0000');
-define('EMPRESA_WHATSAPP', '5554990000000');
-define('EMPRESA_EMAIL', 'contato@milani-transportes.com.br');
-define('EMPRESA_CNPJ', '00.000.000/0001-00'); // substituir
+define('EMPRESA_TELEFONE', '(54) 3379-1028');
+define('EMPRESA_WHATSAPP', '5554991223134');
+define('EMPRESA_EMAIL', 'transpmilani@gmail.com');
+define('EMPRESA_CNPJ', '11.789.154/0001-20');
+define('EMPRESA_ENDERECO', 'Av. Ilso José Webber, 684 — Centro');
+define('EMPRESA_CEP', '99145-000');
+define('EMPRESA_CIDADE_COMPLETA', 'Coxilha — RS, 99145-000');
 
-define('ANO_FUNDACAO', '1990'); // substituir pelo ano real
+define('ANO_FUNDACAO', '2010');
+define('EMPRESA_FROTA', '10');
+define('EMPRESA_MOTORISTAS', '9');
 
 function enviarEmail(array $dados): bool {
-    // TODO: configurar SMTP ou PHPMailer para produção
-    $para    = EMPRESA_EMAIL;
-    $assunto = "Novo contato pelo site: " . htmlspecialchars($dados['assunto']);
+    $para     = EMPRESA_EMAIL;
+    $assunto  = "Novo contato pelo site: " . htmlspecialchars($dados['assunto']);
     $mensagem = "Nome: {$dados['nome']}\n";
     $mensagem .= "Email: {$dados['email']}\n";
     $mensagem .= "Telefone: {$dados['telefone']}\n";

@@ -66,7 +66,7 @@ section { padding: 96px 0; }
   line-height: 1.1;
   color: var(--cinza-escuro);
   text-transform: uppercase;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
 }
 
 .subtitulo-secao {
@@ -107,6 +107,12 @@ section { padding: 96px 0; }
   height: 48px;
   width: auto;
   display: block;
+}
+.hero-logo {
+  width: 480px;
+  max-width: 100%;
+  display: block;
+  margin-bottom: 28px;
 }
 
 .nav-principal { display: flex; align-items: center; gap: 8px; }
@@ -419,52 +425,56 @@ section { padding: 96px 0; }
 #frota .tag-secao { color: var(--vermelho); }
 #frota .subtitulo-secao { color: #888; }
 
+.frota-header { margin-bottom: 48px; }
+
 .frota-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-  margin-top: 56px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 48px;
+  max-width: 860px;
 }
 
 .frota-card {
   background: var(--cinza-medio);
-  border-radius: var(--radius);
-  padding: 32px 28px;
-  border: 1px solid rgba(255,255,255,0.06);
-  transition: background .3s, border-color .3s;
+  border-radius: 8px;
+  padding: 36px 32px;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 4px solid var(--vermelho);
+  transition: background .3s, transform .2s;
 }
 
 .frota-card:hover {
   background: #363636;
-  border-color: rgba(192,57,43,0.4);
+  transform: translateY(-3px);
 }
 
 .frota-tipo {
   font-family: var(--font-display);
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 800;
   color: var(--branco);
   text-transform: uppercase;
   letter-spacing: 1px;
+  margin-bottom: 10px;
 }
 
 .frota-detalhe {
   font-size: 14px;
   color: #888;
-  margin-top: 6px;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .frota-tag {
   display: inline-block;
-  margin-top: 16px;
+  margin-top: 20px;
   background: rgba(192,57,43,0.2);
   color: var(--vermelho);
-  font-size: 12px;
-  font-weight: 600;
-  letter-spacing: 1px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
-  padding: 4px 10px;
+  padding: 5px 12px;
   border-radius: 2px;
 }
 
@@ -688,6 +698,11 @@ section { padding: 96px 0; }
 }
 .alerta-sucesso { background: #d4edda; color: #155724; border-left: 4px solid #28a745; }
 .alerta-erro    { background: #f8d7da; color: #721c24; border-left: 4px solid #dc3545; }
+
+/* Offset para header fixo nas âncoras */
+section[id] {
+  scroll-margin-top: 80px;
+}
 
 /* ── RESPONSIVE ──────────────────────────── */
 @media (max-width: 900px) {
